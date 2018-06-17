@@ -44,7 +44,7 @@ MQTT_ADDR = "{}:{}".format(MQTT_IP_ADDR, str(MQTT_PORT))
 INTENT_START_SKILL = "dbddv01:open_eyes"
 INTENT_ANSWER_YES = "dbddv01:answer_yes"
 INTENT_ANSWER_NO = "dbddv01:answer_no"
-INTENT_INTERRUPT = "dbddv01:interrupt"
+INTENT_INTERRUPT = "dbddv01:stop_cam"
 #INTENT_DOES_NOT_KNOW = "dbddv01:does_not_know"
 
 INTENT_FILTER_GET_ANSWER = [
