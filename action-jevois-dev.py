@@ -94,7 +94,7 @@ def user_gives_answer_yes(hermes, intent_message):
         
         session_id = intent_message.session_id
         
-        sentence = str(launch_jevois())
+        sentence = str(launch_jevois(hermes))
 			
 	hermes.publish_continue_session(intent_message.session_id, sentence, INTENT_FILTER_GET_ANSWER)
 
