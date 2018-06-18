@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-
+# version git
 import ConfigParser
 import random
 import sys
