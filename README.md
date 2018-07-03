@@ -1,2 +1,2 @@
 # snips-skill-jevois
-snips interaction with jevois smartcam sensor
+Working snips interaction with jevois smartcam sensor
